@@ -1,0 +1,426 @@
+<root>
+	<thread name="Main" totalTimeMS="103.584099" startTime="813033354833" stopTime="813034390674" totalBlocks="193"> 
+		<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/CryEditDoc.cpp" totalTimeMS="1.070600" startTime="813033355092" stopTime="813033365798" args=""> 
+			<block name="CLog::LogV" totalTimeMS="0.082900" startTime="813033356451" stopTime="813033357280" args=""> 
+			</block>
+			<block name="CObjectManager::GetObjects" totalTimeMS="0.808000" startTime="813033357456" stopTime="813033365536" args=""> 
+				<block name="CObjectManager::GetObjects" totalTimeMS="0.002300" startTime="813033357461" stopTime="813033357484" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/CryEditDoc.cpp" totalTimeMS="100.187202" startTime="813033365803" stopTime="813034367675" args=""> 
+			<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.002100" startTime="813033365869" stopTime="813033365890" args=""> 
+			</block>
+			<block name="CLog::LogV" totalTimeMS="0.000100" startTime="813033365974" stopTime="813033365975" args=""> 
+			</block>
+			<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001100" startTime="813033366856" stopTime="813033366867" args=""> 
+			</block>
+			<block name="CCryPak::OpenArchive" totalTimeMS="0.164200" startTime="813033367933" stopTime="813033369575" args="assets/Levels/Level01/TerrainTexture.pak"> 
+				<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000900" startTime="813033367963" stopTime="813033367972" args=""> 
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.033800" startTime="813033368006" stopTime="813033368344" args=""> 
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.047100" startTime="813033368496" stopTime="813033368967" args=""> 
+				</block>
+				<block name="CIOWrapper::Fread" totalTimeMS="0.040100" startTime="813033369043" stopTime="813033369444" args=""> 
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/ZipDirCacheFactory.cpp" totalTimeMS="0.000600" startTime="813033369463" stopTime="813033369469" args=""> 
+				</block>
+			</block>
+			<block name="CLog::LogV" totalTimeMS="0.000100" startTime="813033369595" stopTime="813033369596" args=""> 
+			</block>
+			<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.002000" startTime="813033390348" stopTime="813033390368" args=""> 
+			</block>
+			<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/CryEditDoc.cpp" totalTimeMS="93.921700" startTime="813033428412" stopTime="813034367629" args=""> 
+				<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001900" startTime="813033431825" stopTime="813033431844" args=""> 
+				</block>
+				<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001300" startTime="813033433196" stopTime="813033433209" args=""> 
+				</block>
+				<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.002500" startTime="813033433401" stopTime="813033433426" args=""> 
+				</block>
+				<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.002600" startTime="813033433428" stopTime="813033433454" args=""> 
+				</block>
+				<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.003500" startTime="813033433690" stopTime="813033433725" args=""> 
+				</block>
+				<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000800" startTime="813033433725" stopTime="813033433733" args=""> 
+				</block>
+				<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000700" startTime="813033433960" stopTime="813033433967" args=""> 
+				</block>
+				<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001400" startTime="813033434102" stopTime="813033434116" args=""> 
+				</block>
+				<block name="CLog::LogV" totalTimeMS="0.165900" startTime="813033434987" stopTime="813033436646" args=""> 
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/CryEditDoc.cpp" totalTimeMS="35.256603" startTime="813033451788" stopTime="813033804354" args=""> 
+					<block name="CLog::LogV" totalTimeMS="0.089000" startTime="813033452065" stopTime="813033452955" args=""> 
+					</block>
+					<block name="CLog::LogV" totalTimeMS="0.059700" startTime="813033453136" stopTime="813033453733" args=""> 
+					</block>
+					<block name="CLog::LogV" totalTimeMS="0.053800" startTime="813033453874" stopTime="813033454412" args=""> 
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/CryEditDoc.cpp" totalTimeMS="0.000100" startTime="813033454425" stopTime="813033454426" args=""> 
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Mission.cpp" totalTimeMS="21.525101" startTime="813033454435" stopTime="813033669686" args=""> 
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001200" startTime="813033454708" stopTime="813033454720" args=""> 
+						</block>
+						<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.001000" startTime="813033454989" stopTime="813033454999" args=""> 
+						</block>
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001900" startTime="813033455002" stopTime="813033455021" args=""> 
+						</block>
+						<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.001800" startTime="813033455224" stopTime="813033455242" args=""> 
+						</block>
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001000" startTime="813033455242" stopTime="813033455252" args=""> 
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.750600" startTime="813033490745" stopTime="813033498251" args="assets\libs\environmentpresets\levels\level01.xml"> 
+							<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.002300" startTime="813033490799" stopTime="813033490822" args=""> 
+							</block>
+							<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000600" startTime="813033490832" stopTime="813033490838" args=""> 
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.445100" startTime="813033493792" stopTime="813033498243" args=""> 
+							</block>
+						</block>
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.002700" startTime="813033550586" stopTime="813033550613" args=""> 
+						</block>
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001200" startTime="813033552161" stopTime="813033552173" args=""> 
+						</block>
+						<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.002000" startTime="813033552369" stopTime="813033552389" args=""> 
+						</block>
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.002300" startTime="813033552391" stopTime="813033552414" args=""> 
+						</block>
+						<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.003600" startTime="813033552664" stopTime="813033552700" args=""> 
+						</block>
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000700" startTime="813033552701" stopTime="813033552708" args=""> 
+						</block>
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000600" startTime="813033552919" stopTime="813033552925" args=""> 
+						</block>
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001300" startTime="813033553068" stopTime="813033553081" args=""> 
+						</block>
+						<block name="CObjectManager::GetObjects" totalTimeMS="0.001800" startTime="813033569024" stopTime="813033569042" args=""> 
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.481800" startTime="813033614650" stopTime="813033619468" args="assets/Levels/Level01/Layers/Main.lyr"> 
+							<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001200" startTime="813033614675" stopTime="813033614687" args=""> 
+							</block>
+							<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000500" startTime="813033614697" stopTime="813033614702" args=""> 
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.346100" startTime="813033616000" stopTime="813033619461" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/CryEditDoc.cpp" totalTimeMS="0.000200" startTime="813033669757" stopTime="813033669759" args=""> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.494300" startTime="813033671064" stopTime="813033676007" args="assets/Levels/Level01/LevelData/TimeOfDay.tmp"> 
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.002600" startTime="813033671099" stopTime="813033671125" args=""> 
+						</block>
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000500" startTime="813033671136" stopTime="813033671141" args=""> 
+						</block>
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.364000" startTime="813033672360" stopTime="813033676000" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.152500" startTime="813033688447" stopTime="813033689972" args="assets/Levels/Level01/LevelData/TimeOfDay.tmp"> 
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.003500" startTime="813033688519" stopTime="813033688554" args=""> 
+						</block>
+						<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.001800" startTime="813033688875" stopTime="813033688893" args=""> 
+						</block>
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.004100" startTime="813033688896" stopTime="813033688937" args=""> 
+						</block>
+						<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.003700" startTime="813033689297" stopTime="813033689334" args=""> 
+						</block>
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001100" startTime="813033689334" stopTime="813033689345" args=""> 
+						</block>
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.055800" startTime="813033689349" stopTime="813033689907" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.082800" startTime="813033689983" stopTime="813033690811" args="assets/Levels/Level01/LevelData/TimeOfDay.xml"> 
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.006000" startTime="813033689993" stopTime="813033690053" args=""> 
+						</block>
+						<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.000500" startTime="813033690229" stopTime="813033690234" args=""> 
+						</block>
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001800" startTime="813033690237" stopTime="813033690255" args=""> 
+						</block>
+						<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.001100" startTime="813033690415" stopTime="813033690426" args=""> 
+						</block>
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000800" startTime="813033690426" stopTime="813033690434" args=""> 
+						</block>
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.035400" startTime="813033690435" stopTime="813033690789" args=""> 
+						</block>
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.024600" startTime="813033690817" stopTime="813033691063" args=""> 
+						<block name="CIOWrapper::Fread" totalTimeMS="0.024000" startTime="813033690821" stopTime="813033691061" args=""> 
+						</block>
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.017100" startTime="813033691064" stopTime="813033691235" args=""> 
+						<block name="CIOWrapper::Fread" totalTimeMS="0.016800" startTime="813033691066" stopTime="813033691234" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.826900" startTime="813033695151" stopTime="813033703420" args="assets/Levels/Level01/LevelData/Environment.tmp"> 
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001300" startTime="813033695169" stopTime="813033695182" args=""> 
+						</block>
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000600" startTime="813033695192" stopTime="813033695198" args=""> 
+						</block>
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.418500" startTime="813033699227" stopTime="813033703412" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.112000" startTime="813033748125" stopTime="813033749245" args="assets/Levels/Level01/LevelData/Environment.tmp"> 
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001600" startTime="813033748154" stopTime="813033748170" args=""> 
+						</block>
+						<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.001400" startTime="813033748361" stopTime="813033748375" args=""> 
+						</block>
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.002900" startTime="813033748378" stopTime="813033748407" args=""> 
+						</block>
+						<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.002300" startTime="813033748668" stopTime="813033748691" args=""> 
+						</block>
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000900" startTime="813033748691" stopTime="813033748700" args=""> 
+						</block>
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.050600" startTime="813033748701" stopTime="813033749207" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.081100" startTime="813033749256" stopTime="813033750067" args="assets/Levels/Level01/LevelData/Environment.xml"> 
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000800" startTime="813033749266" stopTime="813033749274" args=""> 
+						</block>
+						<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.000500" startTime="813033749429" stopTime="813033749434" args=""> 
+						</block>
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001700" startTime="813033749436" stopTime="813033749453" args=""> 
+						</block>
+						<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.001000" startTime="813033749605" stopTime="813033749615" args=""> 
+						</block>
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000600" startTime="813033749616" stopTime="813033749622" args=""> 
+						</block>
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.041900" startTime="813033749623" stopTime="813033750042" args=""> 
+						</block>
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.016100" startTime="813033750070" stopTime="813033750231" args=""> 
+						<block name="CIOWrapper::Fread" totalTimeMS="0.015600" startTime="813033750074" stopTime="813033750230" args=""> 
+						</block>
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.013700" startTime="813033750232" stopTime="813033750369" args=""> 
+						<block name="CIOWrapper::Fread" totalTimeMS="0.013400" startTime="813033750234" stopTime="813033750368" args=""> 
+						</block>
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/Log.cpp" totalTimeMS="0.161300" startTime="813033753574" stopTime="813033755187" args=""> 
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/BaseLibraryManager.cpp" totalTimeMS="0.010500" startTime="813033755213" stopTime="813033755318" args=""> 
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Prefabs/PrefabManager.cpp" totalTimeMS="0.003400" startTime="813033755330" stopTime="813033755364" args=""> 
+						<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/BaseLibraryManager.cpp" totalTimeMS="0.003200" startTime="813033755331" stopTime="813033755363" args=""> 
+						</block>
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/BaseLibraryManager.cpp" totalTimeMS="0.007100" startTime="813033755371" stopTime="813033755442" args=""> 
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/GameTokens/GameTokenManager.cpp" totalTimeMS="4.662300" startTime="813033755448" stopTime="813033802071" args=""> 
+						<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/BaseLibraryManager.cpp" totalTimeMS="0.003900" startTime="813033756111" stopTime="813033756150" args=""> 
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.667800" startTime="813033756176" stopTime="813033762854" args="assets/Levels/Level01/LevelData/GameTokens.tmp"> 
+							<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001200" startTime="813033756191" stopTime="813033756203" args=""> 
+							</block>
+							<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000400" startTime="813033756210" stopTime="813033756214" args=""> 
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.372200" startTime="813033759125" stopTime="813033762847" args=""> 
+							</block>
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.139900" startTime="813033796229" stopTime="813033797628" args="assets/Levels/Level01/LevelData/GameTokens.tmp"> 
+							<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.003700" startTime="813033796298" stopTime="813033796335" args=""> 
+							</block>
+							<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.002000" startTime="813033796614" stopTime="813033796634" args=""> 
+							</block>
+							<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.003900" startTime="813033796637" stopTime="813033796676" args=""> 
+							</block>
+							<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.003700" startTime="813033797024" stopTime="813033797061" args=""> 
+							</block>
+							<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001000" startTime="813033797061" stopTime="813033797071" args=""> 
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.048700" startTime="813033797075" stopTime="813033797562" args=""> 
+							</block>
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.074600" startTime="813033797640" stopTime="813033798386" args="assets/Levels/Level01/LevelData/GameTokens.xml"> 
+							<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.003900" startTime="813033797648" stopTime="813033797687" args=""> 
+							</block>
+							<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.000500" startTime="813033797837" stopTime="813033797842" args=""> 
+							</block>
+							<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001800" startTime="813033797844" stopTime="813033797862" args=""> 
+							</block>
+							<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.000900" startTime="813033798017" stopTime="813033798026" args=""> 
+							</block>
+							<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000700" startTime="813033798027" stopTime="813033798034" args=""> 
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.032900" startTime="813033798035" stopTime="813033798364" args=""> 
+							</block>
+						</block>
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.020900" startTime="813033798391" stopTime="813033798600" args=""> 
+							<block name="CIOWrapper::Fread" totalTimeMS="0.020300" startTime="813033798395" stopTime="813033798598" args=""> 
+							</block>
+						</block>
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.015500" startTime="813033798601" stopTime="813033798756" args=""> 
+							<block name="CIOWrapper::Fread" totalTimeMS="0.015300" startTime="813033798602" stopTime="813033798755" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/BaseLibraryManager.cpp" totalTimeMS="0.014300" startTime="813033802099" stopTime="813033802242" args=""> 
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/CryEditDoc.cpp" totalTimeMS="0.209700" startTime="813033802243" stopTime="813033804340" args=""> 
+						<block name="CLog::LogV" totalTimeMS="0.201000" startTime="813033802313" stopTime="813033804323" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/Plugins/EditorCommon/Util/XmlArchive.cpp" totalTimeMS="2.106800" startTime="813033804375" stopTime="813033825443" args=""> 
+					<block name="CCryPak::FOpen" totalTimeMS="0.564200" startTime="813033804423" stopTime="813033810065" args="assets/Levels/Level01/Level01.level"> 
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001200" startTime="813033804445" stopTime="813033804457" args=""> 
+						</block>
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000600" startTime="813033804468" stopTime="813033804474" args=""> 
+						</block>
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.433500" startTime="813033805723" stopTime="813033810058" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Terrain/TerrainManager.cpp" totalTimeMS="38.630898" startTime="813033825918" stopTime="813034212227" args=""> 
+					<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Terrain/Heightmap.cpp" totalTimeMS="10.040100" startTime="813033959613" stopTime="813034060014" args=""> 
+						<block name="COctreeNode::ResetStaticInstancing" totalTimeMS="0.000200" startTime="813033963403" stopTime="813033963405" args=""> 
+						</block>
+						<block name="COctreeNode::ResetStaticInstancing" totalTimeMS="0.000100" startTime="813033963455" stopTime="813033963456" args=""> 
+						</block>
+						<block name="COctreeNode::ResetStaticInstancing" totalTimeMS="0.000100" startTime="813033963460" stopTime="813033963461" args=""> 
+						</block>
+						<block name="COctreeNode::ResetStaticInstancing" totalTimeMS="0.000000" startTime="813033963464" stopTime="813033963464" args=""> 
+						</block>
+						<block name="COctreeNode::ResetStaticInstancing" totalTimeMS="0.000000" startTime="813033963467" stopTime="813033963467" args=""> 
+						</block>
+						<block name="COctreeNode::ResetStaticInstancing" totalTimeMS="0.000100" startTime="813033963469" stopTime="813033963470" args=""> 
+						</block>
+						<block name="COctreeNode::ResetStaticInstancing" totalTimeMS="0.000000" startTime="813033963472" stopTime="813033963472" args=""> 
+						</block>
+						<block name="COctreeNode::ResetStaticInstancing" totalTimeMS="0.000100" startTime="813033963480" stopTime="813033963481" args=""> 
+						</block>
+						<block name="COctreeNode::ResetStaticInstancing" totalTimeMS="0.000000" startTime="813033963497" stopTime="813033963497" args=""> 
+						</block>
+						<block name="COctreeNode::ResetStaticInstancing" totalTimeMS="0.000000" startTime="813033963521" stopTime="813033963521" args=""> 
+						</block>
+						<block name="COctreeNode::ResetStaticInstancing" totalTimeMS="0.000100" startTime="813033963525" stopTime="813033963526" args=""> 
+						</block>
+					</block>
+					<block name="CLog::LogV" totalTimeMS="0.254500" startTime="813034060067" stopTime="813034062612" args=""> 
+					</block>
+					<block name="CLog::LogV" totalTimeMS="0.060900" startTime="813034062936" stopTime="813034063545" args=""> 
+					</block>
+					<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.003200" startTime="813034165279" stopTime="813034165311" args=""> 
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Terrain/TerrainManager.cpp" totalTimeMS="7.006800" startTime="813034212256" stopTime="813034282324" args=""> 
+					<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.002700" startTime="813034212955" stopTime="813034212982" args=""> 
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="0.145600" startTime="813034213039" stopTime="813034214495" args="assets/Levels/Level01/TerrainTexture.pak"> 
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000500" startTime="813034213070" stopTime="813034213075" args=""> 
+						</block>
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.051700" startTime="813034213123" stopTime="813034213640" args=""> 
+						</block>
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.035400" startTime="813034213820" stopTime="813034214174" args=""> 
+						</block>
+						<block name="CIOWrapper::Fread" totalTimeMS="0.015100" startTime="813034214255" stopTime="813034214406" args=""> 
+						</block>
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/ZipDirCacheFactory.cpp" totalTimeMS="0.000300" startTime="813034214425" stopTime="813034214428" args=""> 
+						</block>
+					</block>
+					<block name="CLog::LogV" totalTimeMS="0.000200" startTime="813034214527" stopTime="813034214529" args=""> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.464200" startTime="813034214980" stopTime="813034219622" args="assets/Levels/Level01/LevelData/TerrainTexture.tmp"> 
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001000" startTime="813034214999" stopTime="813034215009" args=""> 
+						</block>
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000400" startTime="813034215018" stopTime="813034215022" args=""> 
+						</block>
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.341900" startTime="813034216197" stopTime="813034219616" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.002100" startTime="813034255010" stopTime="813034255031" args=""> 
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Vegetation/VegetationMap.cpp" totalTimeMS="8.189900" startTime="813034282353" stopTime="813034364252" args=""> 
+					<block name="CLog::LogV" totalTimeMS="0.161700" startTime="813034282841" stopTime="813034284458" args=""> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.150400" startTime="813034357830" stopTime="813034359334" args="assets/Levels/Level01/LevelData/VegetationMap.tmp"> 
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.008800" startTime="813034357944" stopTime="813034358032" args=""> 
+						</block>
+						<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.002200" startTime="813034358337" stopTime="813034358359" args=""> 
+						</block>
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.004300" startTime="813034358363" stopTime="813034358406" args=""> 
+						</block>
+						<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.003200" startTime="813034358744" stopTime="813034358776" args=""> 
+						</block>
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001000" startTime="813034358777" stopTime="813034358787" args=""> 
+						</block>
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.047500" startTime="813034358791" stopTime="813034359266" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.068900" startTime="813034359344" stopTime="813034360033" args="assets/Levels/Level01/LevelData/VegetationMap.dat"> 
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000700" startTime="813034359352" stopTime="813034359359" args=""> 
+						</block>
+						<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.000500" startTime="813034359495" stopTime="813034359500" args=""> 
+						</block>
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001600" startTime="813034359502" stopTime="813034359518" args=""> 
+						</block>
+						<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.000900" startTime="813034359662" stopTime="813034359671" args=""> 
+						</block>
+						<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000600" startTime="813034359672" stopTime="813034359678" args=""> 
+						</block>
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.033100" startTime="813034359679" stopTime="813034360010" args=""> 
+						</block>
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.022600" startTime="813034360038" stopTime="813034360264" args=""> 
+						<block name="CIOWrapper::Fread" totalTimeMS="0.022200" startTime="813034360041" stopTime="813034360263" args=""> 
+						</block>
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.015900" startTime="813034360265" stopTime="813034360424" args=""> 
+						<block name="CIOWrapper::Fread" totalTimeMS="0.015600" startTime="813034360267" stopTime="813034360423" args=""> 
+						</block>
+					</block>
+				</block>
+			</block>
+		</block>
+		<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/CryEditDoc.cpp" totalTimeMS="2.246700" startTime="813034367691" stopTime="813034390158" args=""> 
+			<block name="CLog::LogV" totalTimeMS="0.162900" startTime="813034368625" stopTime="813034370254" args=""> 
+			</block>
+			<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.002700" startTime="813034370351" stopTime="813034370378" args=""> 
+			</block>
+			<block name="CCryPak::FOpen" totalTimeMS="0.428000" startTime="813034370473" stopTime="813034374753" args="c:\users\jglov\desktop\video tutorial scripts and projects\migration unity to cryengine\cryengine\user\sandbox\lastLoadPath.preset"> 
+				<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001000" startTime="813034370492" stopTime="813034370502" args=""> 
+				</block>
+				<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.000700" startTime="813034370510" stopTime="813034370517" args=""> 
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.206400" startTime="813034372684" stopTime="813034374748" args=""> 
+				</block>
+			</block>
+		</block>
+	</thread>
+	<thread name="RenderThread" totalTimeMS="103.584099" startTime="813033354833" stopTime="813034390674" totalBlocks="7"> 
+		<block name="LockParticleVideoMemory" totalTimeMS="0.034600" startTime="813033355576" stopTime="813033355922" args=""> 
+			<block name="CDeviceBufferManager::BeginWrite_Locked" totalTimeMS="0.003000" startTime="813033355592" stopTime="813033355622" args=""> 
+			</block>
+			<block name="CDeviceBufferManager::BeginWrite_Locked" totalTimeMS="0.001200" startTime="813033355628" stopTime="813033355640" args=""> 
+			</block>
+		</block>
+		<block name="CREGeomCache::UpdateModified" totalTimeMS="0.000300" startTime="813033355925" stopTime="813033355928" args=""> 
+		</block>
+		<block name="CDeviceBufferManager::ReleaseEmptyBanks" totalTimeMS="0.003000" startTime="813033355931" stopTime="813033355961" args=""> 
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="103.469200" startTime="813033355982" stopTime="813034390674" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="103.468903" startTime="813033355985" stopTime="813034390674" args=""> 
+			</block>
+		</block>
+	</thread>
+	<thread name="AudioMainThread" totalTimeMS="103.584099" startTime="813033354833" stopTime="813034390674" totalBlocks="9"> 
+		<block name="Audio: Internal Update" totalTimeMS="0.008000" startTime="813033610319" stopTime="813033610399" args=""> 
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.952702" startTime="813033610400" stopTime="813033919927" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.951599" startTime="813033610401" stopTime="813033919917" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="0.008800" startTime="813033919945" stopTime="813033920033" args=""> 
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.008900" startTime="813033920034" stopTime="813034220123" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.007502" startTime="813033920035" stopTime="813034220110" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="0.010800" startTime="813034220142" stopTime="813034220250" args=""> 
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="17.042301" startTime="813034220251" stopTime="813034390674" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="17.042099" startTime="813034220253" stopTime="813034390674" args=""> 
+			</block>
+		</block>
+	</thread>
+</root>

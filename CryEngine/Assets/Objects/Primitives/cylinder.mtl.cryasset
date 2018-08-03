@@ -1,0 +1,9 @@
+<AssetMetadata version="0" type="Material" guid="04f4e08f-9b27-c1b2-801c-843280f3b57c">
+ <Files>
+  <File path="cylinder.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">0</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,40 @@
+<ObjectLayer>
+ <Layer Name="Main" FullName="Main" GUID="ffe975be-267a-2c99-4184-b79dc6a84f48" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1">
+  <LayerObjects>
+   <Object Type="EntityWithStaticMeshComponent" Layer="Main" LayerGUID="ffe975be-267a-2c99-4184-b79dc6a84f48" Id="4f6f7c4d-8e58-4722-3f2c-7d0788718540" Name="Entity-1" Pos="512.31708,517.38983,34.071297" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="0a5223d9-f7c5-bc33-9c75-21022c861555" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Type="RenderAndCollider" FilePath="Objects/Primitives/Cylinder.cgf" Material="">
+       <Render ShadowSpec="Low" IgnoreVisArea="false" ViewDistRatio="100" LODDistance="100" GIMode="None"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="29269799-4f4c-4881-e212-e6c6e8d7f1f5" Name="" UserAdded="true">
+      <properties Networked="false" EnabledByDefault="true" Resting="false" Type="Rigid" SendCollisionSignal="false">
+       <Buoyancy Damping="1" Density="1" Resistance="1"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="aafb8a78-8fd8-0b6c-0595-68d6a98aa9a1" TypeName="PlayerJump" GUID="87e7d29d-cd60-495d-f553-9089ff0f0ae3" Name="" UserAdded="true">
+      <properties />
+     </Component>
+    </Components>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

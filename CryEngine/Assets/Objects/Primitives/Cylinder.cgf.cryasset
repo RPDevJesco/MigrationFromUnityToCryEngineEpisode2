@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="bf06d0c2-7b5d-7322-7446-e3471f5e0bdd" source="Cylinder.fbx">
+ <Files>
+  <File path="Cylinder.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">124</Detail>
+  <Detail name="vertexCount">192</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Cylinder.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

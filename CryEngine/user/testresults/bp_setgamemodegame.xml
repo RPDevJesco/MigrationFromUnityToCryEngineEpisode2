@@ -1,0 +1,54 @@
+<root>
+	<thread name="Main" totalTimeMS="51.021099" startTime="812661255539" stopTime="812661765750" totalBlocks="68"> 
+		<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/GameEngine.cpp" totalTimeMS="51.002899" startTime="812661255718" stopTime="812661765747" args=""> 
+			<block name="SRenderThread::FlushAndWait" totalTimeMS="0.457400" startTime="812661258439" stopTime="812661263013" args=""> 
+				<block name="Wait - SyncMainWithRender" totalTimeMS="0.349500" startTime="812661258448" stopTime="812661261943" args=""> 
+				</block>
+				<block name="Wait - SyncMainWithRender" totalTimeMS="0.106800" startTime="812661261944" stopTime="812661263012" args=""> 
+				</block>
+			</block>
+			<block name="CLog::LogV" totalTimeMS="0.204700" startTime="812661371778" stopTime="812661373825" args=""> 
+			</block>
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/CryAction.cpp" totalTimeMS="4.776600" startTime="812661378215" stopTime="812661425981" args=""> 
+				<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/ActionGame.cpp" totalTimeMS="2.045400" startTime="812661381223" stopTime="812661401677" args=""> 
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/FlashUI/FlashUI.cpp" totalTimeMS="1.041100" startTime="812661387845" stopTime="812661398256" args=""> 
+					</block>
+				</block>
+			</block>
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAISystem/CAISystem.cpp" totalTimeMS="5.958000" startTime="812661458528" stopTime="812661518108" args=""> 
+			</block>
+			<block name="CEntitiesComponentPropertyCache::StoreEntities" totalTimeMS="1.474400" startTime="812661521323" stopTime="812661536067" args=""> 
+				<block name="CEntitiesComponentPropertyCache::StoreComponent" totalTimeMS="0.941800" startTime="812661524703" stopTime="812661534121" args=""> 
+				</block>
+			</block>
+			<block name="CEntity::SendEventInternal" totalTimeMS="15.784700" startTime="812661538157" stopTime="812661696004" args=""> 
+				<block name="CEntityPhysics::Physicalize" totalTimeMS="3.888600" startTime="812661653579" stopTime="812661692465" args=""> 
+					<block name="CPhysicalWorld::DestroyPhysicalEntity" totalTimeMS="0.344600" startTime="812661653723" stopTime="812661657169" args=""> 
+					</block>
+					<block name="CPhysicalWorld::CreatePhysicalEntity" totalTimeMS="2.086900" startTime="812661657268" stopTime="812661678137" args=""> 
+					</block>
+					<block name="CPhysicalWorld::GetEntitiesAround" totalTimeMS="0.154400" startTime="812661678301" stopTime="812661679845" args=""> 
+					</block>
+				</block>
+			</block>
+		</block>
+	</thread>
+	<thread name="RenderThread" totalTimeMS="51.021099" startTime="812661255539" stopTime="812661765750" totalBlocks="67"> 
+		<block name="SRenderThread: eRC_EndFrame" totalTimeMS="0.282500" startTime="812661258929" stopTime="812661261754" args=""> 
+			<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="0.281500" startTime="812661258936" stopTime="812661261751" args=""> 
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="50.273602" startTime="812661263014" stopTime="812661765750" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="50.273602" startTime="812661263014" stopTime="812661765750" args=""> 
+			</block>
+		</block>
+	</thread>
+	<thread name="JobSystem_Worker_0" totalTimeMS="51.021099" startTime="812661255539" stopTime="812661765750" totalBlocks="6"> 
+	</thread>
+	<thread name="AudioMainThread" totalTimeMS="51.021099" startTime="812661255539" stopTime="812661765750" totalBlocks="3"> 
+		<block name="Audio: Internal Update" totalTimeMS="24.881500" startTime="812661516935" stopTime="812661765750" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="24.881399" startTime="812661516936" stopTime="812661765750" args=""> 
+			</block>
+		</block>
+	</thread>
+</root>
